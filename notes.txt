@@ -1,0 +1,13 @@
+webpack in create react app expects the entry point to be index.js
+
+strict mode renders the components twice to reveal bugs and detect whether outdated parts of "the api" are being used
+
+cra automatically sets up github repo
+
+inline styles for jsx are written in camelCase and requires an object inside of js mode: 
+  -e.g.
+    style={{color: 'red', fontSize: 32px}}
+
+props are immutable and read only. if you need to mutate, you need state.
+
+booleans are not rendered when conditional rendering but other types like numbers will
