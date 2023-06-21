@@ -11,3 +11,11 @@ inline styles for jsx are written in camelCase and requires an object inside of 
 props are immutable and read only. if you need to mutate, you need state.
 
 booleans are not rendered when conditional rendering but other types like numbers will
+
+the point of react and most other frameworks is to assist in keeping the UI in sync with the data. it's called React because the library reacts to state changes by re-rendering the component to keep the UI in sync with data changes.
+
+SECTION 6: STATE, EVENTS, AND FORMS
+
+windows key + '+' + . to open emoji selector
+
+BM: SECTION 6 @ 71
